@@ -1,0 +1,20 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-content: start;
+    width: 960px;
+    height: 960px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.panel{
+    background-color: black;
+    margin: 1px;
+    width: 30px;
+    height: 30px;
+}
