@@ -4,17 +4,25 @@
     justify-content: start;
     align-content: start;
     width: 960px;
-    height: 960px;
+    height: 700px;
+    border: solid 2px;
 }
 
 .row {
     display: flex;
     flex-direction: row;
+    height: 100%;
 }
 
 .panel{
-    background-color: black;
-    margin: 1px;
-    width: 30px;
-    height: 30px;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    display: flex;
+    flex: 1;
+}
+
+button{
+    margin: 10px;
 }
